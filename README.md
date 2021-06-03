@@ -15,7 +15,11 @@
   * `exec $SHELL`
   * `nvm install --lts`
   * `nvm alias default ` + version number
-10. DOCKER:
+
+11. `npm i -g npm`
+12. `npm i -g yarn`
+13. `npm i -g commitizen`
+14. DOCKER:
   * `sudo pacman -Syu`
   * `sudo pacman -S docker`
   * `sudo systemctl start docker.service`
