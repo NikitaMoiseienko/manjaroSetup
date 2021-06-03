@@ -104,25 +104,50 @@ docker-compose up
 ---
 * vscode
 * vscode-insiders
-
+* mongodb-altas
+* 
 
 
 
 
 ## WORKSPACES KEYS:
----
 * windowmanager:
     * move window to workspace
-> super+alt+hjkl
+      * super+alt+hjkl
     * tile window
-> super+arrows
+      * super+arrows
     * move to workspace
-> super+hjkl
+      * super+hjkl
     * add/delete (near) workspace
-> super(+alt)+insert/delete
+      * super(+alt)+insert/delete
     * stick window
-> alt+super+pause
->> 
+      * alt+super+pause
+* window buttons:
+    * show handle
+    * allow drag-drop
+
+
+# GIT + ssh
+```
+git config user.name --global "nik"
+```
+```
+git config --global user.email "volsknik@gmail.com"
+```
+```
+sudo pacman -S xclip
+```
+```
+ssh-keygen -t ed25519 -C "gitlabForS@akura"
+```
+```
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+```
+```
+ssh -T git@gitlab.example.com
+```
+
+
 
 
 
