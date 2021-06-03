@@ -100,8 +100,29 @@ services:
 ```
 docker-compose up
 ```
+### INSTALL:
+---
+* vscode
+* vscode-insiders
 
 
+
+
+
+## WORKSPACES KEYS:
+---
+* windowmanager:
+    * move window to workspace
+> super+alt+hjkl
+    * tile window
+> super+arrows
+    * move to workspace
+> super+hjkl
+    * add/delete (near) workspace
+> super(+alt)+insert/delete
+    * stick window
+> alt+super+pause
+>> 
 
 
 
