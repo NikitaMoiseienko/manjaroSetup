@@ -4,29 +4,104 @@
 1. sync Firefox
 2. reverse scroll for touchpad
 3. allow all packages
-4. `sudo pacman -Syy`
+```
+sudo pacman -Syy
+```
 5. install gnome-terminal
 6. ctrl+alt+t `gnome-terminal`
-7. `sudo pacman -S vim`
-8. `sudo pacman -S yay`
-9. NVM:
-  * `sudo pacman -S nvm`
-  * `echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc`
-  * `exec $SHELL`
-  * `nvm install --lts`
-  * `nvm alias default ` + version number
+```
+sudo pacman -S vim`
+```
+```
+sudo pacman -S yay
+```
+### NVM:
+---
+```
+sudo pacman -S nvm`
+```
+```
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc`
+```
+```
+exec $SHELL`
+```
+```
+nvm install --lts`
+```
+```
+nvm alias default ` + version number
+```
+```
+npm i -g npm`
+```
+```
+npm i -g yarn
+```
+```
+npm i -g commitizen
+```
+### DOCKER:
+---
+```
+sudo pacman -Syu
+```
+```
+sudo pacman -S docker
+```
+```
+sudo systemctl start docker.service
+```
+```
+sudo systemctl enable docker.service
+```
+```
+sudo usermod -aG docker $USER
+```
+```
+sudo pacman -S docker-compose
+```
+```
+reboot
+```
 
-11. `npm i -g npm`
-12. `npm i -g yarn`
-13. `npm i -g commitizen`
-14. DOCKER:
-  * `sudo pacman -Syu`
-  * `sudo pacman -S docker`
-  * `sudo systemctl start docker.service`
-  * `sudo systemctl enable docker.service`
-  * `sudo usermod -aG docker $USER`
-  * `sudo pacman -S docker-compose`
-  * `reboot`
+##### images for mongodb and redis:
+---
+```
+vim docker-compose.yml
+```
+```
+version: '3.1'
+
+services:
+
+  mongodb:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+```
+```
+docker-compose up
+```
+```
+vim docker-compose.yml
+```
+```
+version: '3.1'
+
+services:
+  redis:
+    image: redis:6
+    restart: always
+    ports:
+      - 6379:6379
+```
+```
+docker-compose up
+```
+
+
 
 
 
