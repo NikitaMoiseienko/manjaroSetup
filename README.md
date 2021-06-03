@@ -129,7 +129,7 @@ docker-compose up
 
 # GIT + ssh
 ```
-git config user.name --global "nik"
+git config --global user.name "nik"
 ```
 ```
 git config --global user.email "volsknik@gmail.com"
