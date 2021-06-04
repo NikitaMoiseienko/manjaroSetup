@@ -146,6 +146,24 @@ xclip -sel clip < ~/.ssh/id_ed25519.pub
 ```
 ssh -T git@gitlab.example.com
 ```
+---
+
+## GUAKE
+* install
+* ctrl+3 => guake
+* keybindings:
+    * toggle visibility ctrl+3
+    * toggle fullscreen ctrl+3
+    * split vertical/horizontal ctrl+shift++/-
+    * focus ctrl+hjkl
+    * resize splited terminal panel ctrl+shift+hjkl
+    * left/riht tabs ctrl+alt+shift+h/l
+    * move tab to left/right ctrl+alt+shift+j/k
+
+## TILDA
+Like Guake when possible and 4 instead of 3
+* make guake half-up, tilda - half-bottom
+
 
 
 
