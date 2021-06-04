@@ -105,8 +105,9 @@ docker-compose up
 * vscode
 * vscode-insiders
 * mongodb-altas
-* 
-
+* slack
+* telegram
+* chrome
 
 
 
