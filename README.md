@@ -83,17 +83,7 @@ services:
     restart: always
     ports:
       - 27017:27017
-```
-```
-docker-compose up
-```
-```
-vim docker-compose.yml
-```
-```
-version: '3.1'
-
-services:
+      
   redis:
     image: redis:6
     restart: always
