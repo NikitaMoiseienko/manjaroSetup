@@ -10,7 +10,7 @@ sudo pacman -Syy
 5. install gnome-terminal
 6. ctrl+alt+t `gnome-terminal`
 ```
-sudo pacman -S vim`
+sudo pacman -S vim
 ```
 ```
 sudo pacman -S yay
@@ -18,28 +18,31 @@ sudo pacman -S yay
 ### NVM:
 ---
 ```
-sudo pacman -S nvm`
+sudo pacman -S nvm
 ```
 ```
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc`
 ```
 ```
-exec $SHELL`
+exec $SHELL
 ```
 ```
-nvm install --lts`
+nvm install --lts
 ```
 ```
-nvm alias default ` + version number
+nvm alias default + version number
 ```
 ```
-npm i -g npm`
+npm i -g npm
 ```
 ```
 npm i -g yarn
 ```
 ```
 npm i -g commitizen
+```
+```
+npm i -g localtunnel
 ```
 ### DOCKER:
 ---
